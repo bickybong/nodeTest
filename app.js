@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
         FNAME: subscribingUser.firstName,
         LNAME: subscribingUser.lastName
         }
-  });
+  }); 
 
   console.log(
     `Successfully added contact as an audience member. The contact's id is ${
